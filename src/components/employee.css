@@ -1,0 +1,43 @@
+
+.first-div{
+    width: 70% !important;
+    width: 80% !important;
+    margin: 0 20% 0 10%;
+    padding: 10px 20px;
+}
+
+.second-div{
+    width: 100% !important;
+}
+.border{
+    border: 1px solid black;
+    margin: 0 10% 0 10%;
+}
+ .adjust-card{
+    width: 60% !important;
+    margin: 0 20% 0 20%;
+    padding: 10px 20px;
+} 
+
+.new-employee{
+    display: flex;
+    
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    text-align: center;
+}
+
+.new-employee-logo{
+    width: 3%;
+
+}
+.new-employee-detail{
+    width: 90%;
+}
+
+.iec-logo{
+    width: 10vb;
+   
+}
+
