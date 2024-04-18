@@ -158,7 +158,7 @@ const Employee = () => {
     return (
         <div className=''>
             <div className='main-div' >
-                <div className='col-8 first-div'>
+                {/* <div className='col-8 first-div'>
                     <div className='card'>
                         <div className='card-header bg-warning text-white'>
                             Employee List
@@ -210,7 +210,7 @@ const Employee = () => {
 
                         </div>
                     </div>
-                </div>
+                </div> */}
 
 
             <div ref={componentPdf} style={{width: "60%"}} className='second-div adjust-card ' >
