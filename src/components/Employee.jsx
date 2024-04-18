@@ -308,9 +308,7 @@ const Employee = () => {
                                              {isSaveLoader && <span class="spinner-border spinner-border-sm"></span>} 
                                              Save Employee</button>
                                     }
-                                    <div className='d-grid d-md-flex justify-content-md-end mb-3'>
-                                        <button to="" className="btn btn-warning" onClick={generatePDF}>PDF</button>
-                                    </div>
+                                  
                                     {
                                         employeeObj.empId !== 0 && <button className='btn btn-sm btn-warning' onClick={updateEmployee}> Update Employee</button>
                                     }
@@ -321,6 +319,9 @@ const Employee = () => {
                 </div>
 
                 </div>  
+                <div className='d-grid d-md-flex justify-content-md-end mb-3'>
+                                        <button to="" className="btn btn-warning" onClick={generatePDF}>PDF</button>
+                                    </div>
 
             </div>
         </div>
